@@ -1,0 +1,122 @@
+body{
+    font-family: bold;
+    font-size: 15px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#header{
+    width: 1000px;
+    height: auto;
+}
+#nav{
+    background: cornflowerblue;
+    height: 40px;
+}
+#body #left{
+    background: rgb(245, 213, 134);
+    width: 700px;
+    min-height: 1360px;
+    float: left;
+}
+#body #right{
+    background: darkgrey;
+    width: 300px;
+    min-height: 700px;
+    float: left;
+}
+#footer{
+    background: red;
+    float: left;
+    width: 1000px;
+    text-align: center;
+}
+#nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+#nav ul li{
+    list-style: none;
+    float: left;
+    margin: 0 5px;
+    border-left;: 1px solid white;
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 190px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+#body #left ul li{
+    list-style: none;
+    clear: left;
+}
+#body #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+#body #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+}
+#body h2{
+    text-decoration: none;
+    background: crimson;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+#footer div img{
+    border-right: black solid 2px;
+    float: left;
+}
+#footer div{
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+#body #right iframe{
+    width: 300px;
+}
+#body #right #auto{
+    height: 210px;
+    font-size: 20px;
+    text-align: center;
+}
+#body #left h3{
+ color: rgb(243, 14, 14);
+}
+#body #left #text h1{
+    text-align: center;
+}
+.form{
+    margin: 10px 10px 10px 10px;
+}
+.abc{
+    width: 100px;
+}
+.input{
+    width: 500px;
+    text-align: right;
+}
+#body #left #noidung{
+    width: 500px;
+    height: 200px;
+}
+#body #left #button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color:red;
+    color: white;
+    margin-left: 50px;
+}
